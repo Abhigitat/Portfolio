@@ -50,3 +50,29 @@ a:hover{
 #element {
     color: #712be2;
 }
+
+.section-line{
+    background-color: #0425bb;
+    height: 2px;
+    margin: 50px 65px;
+}
+.secondSection{
+    margin-left: 65px;
+}
+.second-sec-text{
+    color: gray;
+}
+.second-main-text{
+    margin-top: 10px;
+    font-size: 2rem;
+}
+
+
+@media screen and (max-width: 1100px) {
+  body{
+    /* background-color: aqua; */
+  }
+  .firstSection{
+    flex-direction: column;
+  }
+}
